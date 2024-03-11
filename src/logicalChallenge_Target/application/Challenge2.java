@@ -34,6 +34,7 @@ public class Challenge2 {
 		sc.close();
 	}
 	
+	// Funcao logica para buscar o numero desejado
 	public static String lookForFibonacci(int n) {
 		if(n == 0) return "R: Pertence a sequência, é o 1º número.";
 				
@@ -50,6 +51,7 @@ public class Challenge2 {
 				: "R: Não pertence a sequência.";
 	}
 	
+	// Exibicao padronizada do resultado
 	public static void printChallenge2(int n){
 		System.out.println("\nProcuramos o número " + n + ".");
 		System.out.println(lookForFibonacci(n)+"\n");
